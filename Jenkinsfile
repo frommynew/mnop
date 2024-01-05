@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout code') {
       steps {
-        git(url: 'https://github.com/frommynew/mnop', branch: 'dev')
+        git(url: 'https://github.com/frommynew/mnop', branch: 'main')
       }
     }
 
